@@ -1,10 +1,9 @@
-<script>
-    var alpha = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z","1","2","3","4","5","6","7","8","9","0","/",".","#"," ","=","[","]","~"];
-    function de(arr){
-    var x = []
-    for (let i = 0; i < arr.length; i++) {
-        x.push(alpha[arr[i]])};
-    return atob(x.join(''))
+var alpha = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z","1","2","3","4","5","6","7","8","9","0","/",".","#"," ","=","[","]","~"];
+function de(arr){
+var x = []
+for (let i = 0; i < arr.length; i++) {
+    x.push(alpha[arr[i]])};
+return atob(x.join(''))
 }
 function split(x,y){
   if(y == 2){
@@ -77,5 +76,3 @@ var x = -285 ; y = 771; z = -428;
     document.querySelector('#HEADLINE991 .ladi-headline').innerText = m4;
     document.querySelector('#HEADLINE944 .ladi-headline').innerText = m5[0];
     document.querySelector('#HEADLINE992 .ladi-headline').innerText = m5[1];
-    
-</script>
