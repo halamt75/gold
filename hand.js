@@ -26,7 +26,7 @@ for (let i = 0; i < u.length; i++) {
 for (let i = 0; i < l.length; i++) {
     s += alpha.indexOf(l[i]);
     r += alpha.indexOf(l[i])-i};
-x = -447; y = 715; z = -803; v = -649;
+x = -393; y = 554; z = -803; v = -649;
 
     var dd = document.querySelector(de([34, 61, 7, 31, 42, 46, 43, 38, 44, 46, 56, 31, 38,  9, 46, s+x-265, 34, 28, 56, 18, 50, 48, 43, 15, 37, 48, 7, 11, 50, 48, 43, 18,  0, 48, 56, 11])).outerText;
     month = document.querySelector(de([34, 61,  7, 31, 42, 46, 43, 38, 44, 46, 56, 31, 38,  9, 46, s+x-264, 34, 28, 56, 18, 50, 48, 43, 15, 37, 48, 7, 11, 50, 48, 43, 18,  0, 48, 56, 11])).outerText;
